@@ -7,7 +7,7 @@ import { Employee } from './employee'; // Import the Employee interface
   providedIn: 'root'
 })
 export class EmployeeService {
-  private apiUrl = 'http://localhost:5000/api/employees'; // Update the URL to match your backend API
+  private apiUrl = 'http://localhost:5000/api/employees'; 
 
   constructor(private http: HttpClient) { }
 
